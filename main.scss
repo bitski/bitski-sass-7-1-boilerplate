@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*!
+* main.scss/main.css
+* Compiled main Sass/CSS file importing all other used stylesheets.
+* Copyright © 2025 bitski
+*
+* Licensed under the MIT License.
+*/
+
+// 1. Abstracts
+//
+// Abstract settings, helpers or functions.
+// Imported files have no direct output.
+@use "abstracts/variables";
+@use "abstracts/functions";
+@use "abstracts/mixins";
+@use "abstracts/placeholders";
+
+// 2. Vendors
+
+// 3. Base
+//
+// Global styles used in the project.
+@use "base/reset";
+@use "base/base";
+@use "base/fonts";
+@use "base/typography";
+@use "base/helpers";
+
+// 4. Layout
+//
+// Specific element styles and layout.
+@use "layout/header";
+@use "layout/main";
+@use "layout/main-grid";
+@use "layout/footer";
+
+// 5. Components
+//
+// All styles relating to a reusable component.
+@use "components/article";
+@use "components/button";
+@use "components/card";
+@use "components/grid";
+
+// 6. Pages
+@use "pages/home";
+@use "pages/static";
+
+// 7. Themes
+//
+// All styles relating to a certain theme.
+@use "themes/themes";
