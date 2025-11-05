@@ -1,5 +1,8 @@
-// Abstracts
-@use "variables";
-@use "functions";
-@use "mixins";
-@use "placeholders";
+// abstracts/_abstracts.scss
+//
+// Abstract settings, helpers or functions.
+// Imported files have no direct output.
+@forward "variables";
+@forward "functions";
+@forward "mixins";
+@forward "placeholders";

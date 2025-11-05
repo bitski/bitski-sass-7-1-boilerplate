@@ -1,5 +1,7 @@
-// Components
-@use "article";
-@use "button";
-@use "card";
-@use "grid";
+// components/_components.scss
+//
+// All styles relating to a reusable component.
+@forward "article";
+@forward "button";
+@forward "card";
+@forward "grid";

@@ -1,6 +1,8 @@
-// Base
-@use "reset";
-@use "foundation";
-@use "fonts";
-@use "typography";
-@use "helpers";
+// base/_base.scss
+//
+// Global styles used in the project.
+@forward "reset";
+@forward "foundation";
+@forward "fonts";
+@forward "typography";
+@forward "helpers";
