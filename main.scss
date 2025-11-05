@@ -22,31 +22,20 @@
 // 3. Base
 //
 // Global styles used in the project.
-@use "base/reset";
 @use "base/base";
-@use "base/fonts";
-@use "base/typography";
-@use "base/helpers";
 
 // 4. Layout
 //
 // Specific element styles and layout.
-@use "layout/header";
-@use "layout/main";
-@use "layout/main-grid";
-@use "layout/footer";
+@use "layout/layout";
 
 // 5. Components
 //
 // All styles relating to a reusable component.
-@use "components/article";
-@use "components/button";
-@use "components/card";
-@use "components/grid";
+@use "components/components";
 
 // 6. Pages
-@use "pages/home";
-@use "pages/static";
+@use "pages/pages";
 
 // 7. Themes
 //
