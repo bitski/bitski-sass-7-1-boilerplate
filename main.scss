@@ -8,10 +8,10 @@
 * Licensed under the MIT License.
 */
 
-// 1. Abstracts
-@use "abstracts/abstracts";
+// 1. Vendors
 
-// 2. Vendors
+// 2. Abstracts
+@use "abstracts/abstracts";
 
 // 3. Base
 @use "base/base";

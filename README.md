@@ -2,4 +2,4 @@
 Sass boilerplate implementing the 7-1 architecture pattern from Sass Guidelines.
 
 ## Development Status
-Version 0.3.0 (Alpha) – actively maintained and developed.
+Version 0.3.1 (Alpha) – actively maintained and developed.
