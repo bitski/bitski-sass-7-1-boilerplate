@@ -9,6 +9,11 @@
 */
 
 // 1. Vendors
+// Use @use to import the vendors entry point only if none of the vendors
+// use CSS files or internal @import statements (e.g., Bootstrap 5 uses @import).
+// Use @import if they do.
+//@import "vendors/vendors";
+@use "vendors/vendors";
 
 // 2. Abstracts
 @use "abstracts/abstracts";
